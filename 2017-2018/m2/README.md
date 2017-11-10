@@ -9,7 +9,7 @@ For the finals, you will **have** to put your code under:
 To make sure everything is correctly setup:
 
 ```
-$> export GOPATH=$HOME>M_username/go
+$> export GOPATH=$HOME/M_username/go
 $> go get github.com/master-pfa-info/exams/2017-2018/m2/setup-pfa-exam
 $> $GOPATH/bin/setup-pfa-exam -init
 ```
