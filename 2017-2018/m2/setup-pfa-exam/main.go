@@ -61,7 +61,6 @@ func doSetupGo() {
 	if err != nil {
 		log.Fatalf("could not get current user: %v", err)
 	}
-	log.Printf("hello %s", usr.Name)
 
 	usrdir := filepath.Join(srcdir, "uca.fr", usr.Username)
 	log.Printf("finals=%q\n", usrdir)
