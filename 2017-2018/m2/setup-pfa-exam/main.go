@@ -107,7 +107,7 @@ func doSaveWork() {
 	defer os.RemoveAll(tmpdir)
 
 	save := filepath.Join(tmpdir, usr.Username+"-pfa.tar.gz")
-	cmd := exec.Command("tar", "zcvf", save, "src")
+	cmd := exec.Command("tar", "zcvf", save, "src/uca.fr")
 	cmd.Dir = gopath
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
